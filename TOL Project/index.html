@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <!-- CONFIGURAÇÕES -->
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>T.O.L. - Thinking Out Loud</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="cabecalho">
+        <figure class="cabecalho__logo">
+          <img src="./assets/img/LogoThinkingOutLoud.png" alt="Logo TOL" />
+          <figcaption hidden>Logo TOL</figcaption>
+        </figure>
+        <nav class="cabecalho__menuNavegacao">
+          <ul class="cabecalho__menuLista">
+            <li class="cabecalho__menuItem">
+              <img src="./assets/img/HomePink copy.png" alt="Página Inicial" />
+              <a href="">Home</a>
+            </li>
+
+            <li class="cabecalho__menuItem">
+              <img src="./assets/img/HashtagPink copy.png" alt="Explorar" />
+              <a href="">Explore</a>
+            </li>
+
+            <li class="cabecalho__menuItem">
+              <img
+                src="./assets/img/NotificationPink copy.png"
+                alt="Notificações"
+              />
+              <a href="">Notifications</a>
+            </li>
+
+            <li class="cabecalho__menuItem">
+              <img src="./assets/img/MessagesPink copy.png" alt="Mensagens" />
+              <a href="">Messages</a>
+            </li>
+
+            <li class="cabecalho__menuItem">
+              <img
+                src="./assets/img/BookmarksPink copy.png"
+                alt="Itens salvos"
+              />
+              <a href="">Bookmarks</a>
+            </li>
+
+            <li class="cabecalho__menuItem">
+              <img src="./assets/img/ListsPink copy.png" alt="Listas" />
+              <a href="">Lists</a>
+            </li>
+
+            <li class="cabecalho__menuItem">
+              <img src="./assets/img/ProfilePicJennifer.png" alt="Perfil" />
+              <a href="">Profile</a>
+            </li>
+
+            <li class="cabecalho__menuItem">
+              <img src="./assets/img/MorePink copy.png" alt="Mais" />
+              <a href="">More</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main class="conteudoPrincipal">
+        <h3 class="conteudoPrincipal__titulo">Home</h3>
+        <form action="#" class="conteudoPrincipal__formulario">
+          <textarea
+            name="textoTweet"
+            placeholder="What are you thinking?"
+          ></textarea>
+
+          <button type="submit">Send Thought</button>
+        </form>
+        <section class="conteudoPrincipal__feed">
+          <ul class="conteudoPrincipal__listaTweets">
+            <li class="conteudoPrincipal__tweet">
+              <img
+                class="tweet__fotoPerfil"
+                src="./assets/img/ProfilePicClint.png"
+                alt="Hudson"
+              />
+              <div class="tweet__conteudo">
+                <h2>Clint Yuri</h2>
+                <span class="username">@clintyuri 2 min</span>
+                <p>
+                  The architecture can build and modulate an age, a culture and
+                  a society. It can change how people will act in a space. No
+                  meter if is a small room or a huge city. Architecture can
+                  change the world, a place and most import, you.
+                  <span class="corRosa">#archtectfeelings</span> 🤯
+                </p>
+              </div>
+            </li>
+            <li class="conteudoPrincipal__tweet">
+              <img
+                class="tweet__fotoPerfil"
+                src="./assets/img/ProfilePicIngrid.png"
+                alt="Ingrid"
+              />
+              <div class="tweet__conteudo">
+                <h2>Ingrid Ingra</h2>
+                <span class="username">@ingridingra 45s</span>
+                <p>
+                  This is a thought! It can be short or long, but the most
+                  important thing is that you can write whatever comes to your
+                  mind <span class="corRosa">#likethis</span>
+                </p>
+              </div>
+            </li>
+            <li class="conteudoPrincipal__tweet">
+              <img
+                class="tweet__fotoPerfil"
+                src="./assets/img/ProfilePicJennifer.png"
+                alt="Jenny"
+              />
+              <div class="tweet__conteudo">
+                <h2>Jenny</h2>
+                <span class="username">@jenniferdsbaumgart 13s</span>
+                <p>
+                  I came from the chemicals elements to the programming codes.
+                  I'm so amazed with this new journey.
+                  <span class="corRosa"
+                    >#FutureDev #Excited #newbeginnings</span
+                  >
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </main>
+    </div>
+
+    <script type="text/javascript" src="./assets/js/script.js"></script>
+  </body>
+</html>
